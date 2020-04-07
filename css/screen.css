@@ -120,6 +120,7 @@ margin-left: 0px;
     float: left;
     position: relative;
     width: 10%;
+    list-style-type: none;
   }
 
   #navbar-container ul li a {
@@ -148,7 +149,22 @@ margin-left: 0px;
     margin-bottom: 1em;
   }
   
+  #thoughts {
+    text-align: center;
+  }
+  
   #thoughts_h2 {
     font-size: 1.7em;
+    margin-bottom: 1em;
+  }
+  
+  #thoughts_list {
+    display: inline-block;
+    text-align: left;
+    color: white;
+  }
+
+  #thoughts_list li {
+    margin-bottom: 1em;
   }
 }
