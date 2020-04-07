@@ -1,5 +1,5 @@
 body{
-	background-color: azure;
+	background-color: #87CEFA;
 	display: inline;
 
 }
@@ -19,25 +19,26 @@ li {
 	list-style-type: none;
 }
 
-form{
-	margin: 0 auto;
-}
 #email,
 #phone,
 #firstname,
 #lastname {
   margin-bottom: 20px;
+  margin-right: 10px;
 }
 
+
 input {
-  width: 30%;
   padding: 12px 20px;
   margin: 10px 0;
   box-sizing: border-box;
 }
+input[type=text]:focus {
+  background-color: lightblue;
+}
 
-.button1{
-border-radius: 8px;
+input[type=tel]:focus {
+  background-color: lightblue;
 }
 
 #navbar-container ul {
@@ -64,4 +65,9 @@ border-radius: 8px;
 }
 #navbar-container ul li a:hover {
   background-color: #000;
+}
+
+#form{
+margin-left: 200px;
+	
 }
