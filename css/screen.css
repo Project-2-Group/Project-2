@@ -9,10 +9,17 @@ h1{
 	color: #191970;
 }
 
-h2{
+h2,h3{
     font-family: Verdana;
 	color: #191970;
 	text-align: center;
+}
+
+#mission{ 
+ font-family: Arial;
+ text-align:center;
+ margin-left: 20em;
+ margin-right: 20em;
 }
 li {
 	font-family: Verdana;
