@@ -85,6 +85,12 @@ input[type=tel]:focus {
 margin-left: 0px;
 	
 }
+#form{
+	border-width:5px;  
+    border-bottom-style:double;
+	margin-left:0px;
+	
+}
 
 #info {
   text-align: center;
