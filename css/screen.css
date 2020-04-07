@@ -121,3 +121,12 @@ margin-left: 200px;
     color: white;
   }
 }
+#form1{
+	margin-left: 200px;
+}
+#form{
+	border-width:5px;  
+    border-bottom-style:double;
+	margin-left:0px;
+	
+}
