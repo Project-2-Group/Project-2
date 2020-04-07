@@ -144,6 +144,9 @@ margin-left: 0px;
   margin-top: 1em;
   margin-bottom: 1em;
 }
+img {
+	margin-top: 1em;
+}
 
 @media only screen and (min-width: 992px) {
   #navbar-container ul {
