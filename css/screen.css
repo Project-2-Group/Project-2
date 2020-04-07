@@ -18,7 +18,10 @@ li {
 	font-family: Verdana;
 	list-style-type: none;
 }
-
+img {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
 #email,
 #phone,
 #firstname,
