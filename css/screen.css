@@ -15,7 +15,7 @@ h2{
 	text-align: center;
 }
 li {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: Verdana;
 	list-style-type: none;
 }
 
@@ -36,5 +36,32 @@ input {
   box-sizing: border-box;
 }
 
+.button1{
+border-radius: 8px;
+}
 
+#navbar-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  left: 50%;
+  right: 50%;
+  
+}
+#navbar-container ul li {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
 
+#navbar-container ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+#navbar-container ul li a:hover {
+  background-color: #000;
+}
