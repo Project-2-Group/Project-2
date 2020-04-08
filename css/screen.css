@@ -9,6 +9,8 @@ h1{
 	font-family: Verdana;
 	color: #191970;
 }
+
+
 #interest, #inter{
 	font-size: 2em;
 }
@@ -50,11 +52,6 @@ img#slider {
     z-index: 2;
   }
 
-#bottom {
-    margin-top: 10em;
-    border-width:5px;
-    border-bottom-style:double;
-}
 #mission{ 
  font-family: Arial;
  text-align:center;
@@ -171,9 +168,13 @@ margin-left: 0px;
  font-size: 4em;
 }
 
-#in, #fb{
-	width: 25px;
-	height:25px;
+#fb{
+	width:  75px;
+	height: 75px;
+}
+#in{
+	width: 75px;
+	height: 75px;
 }
 
 
@@ -305,23 +306,22 @@ img#slider {
     opacity: 1;
     z-index: 2;
   }
-#interest, #inter{
-font-size: 1em;
+  #interest, #inter{
+	font-size: 1em;
 }
   
-}
+
 #in{
-    height: 25px ;
-	width: 25px;
+    height: 100px ;
+	width: 100px;
 }
 
 #fb{
-	height: 25px ;
-	width: 25px;
+	height: 100px ;
+	width: 100px;
 }
 
 img {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-
