@@ -54,6 +54,7 @@ input[type=text]:focus {
 input[type=text]{
 	border: 2px;
 	border-radius: 4px;
+	width: 50%;
 }
 
 input [type=button], input[type=submit], input[type=reset]{
@@ -63,7 +64,8 @@ input [type=button], input[type=submit], input[type=reset]{
 }
 input[type=tel]{
 border: 2px;
-	border-radius: 4px;
+border-radius: 4px;
+width: 50%;
 }
 input[type=tel]:focus {
   background-color: lightblue;
@@ -112,7 +114,7 @@ margin-left: 0px;
 	border-width:5px;  
     border-bottom-style:double;
 	margin-left:0px;
-	
+	text-align: center;
 }
 
 #info {
@@ -194,6 +196,19 @@ img#slider {
 }
 
 @media only screen and (min-width: 992px) {
+	input[type=text]{
+	width:20%
+	}
+	input[type=tel]{
+	width:20%;
+	}
+	#form{
+	border-width:5px;  
+    border-bottom-style:double;
+	margin-left:0px;
+	text-align: left;
+}
+
   #navbar-container ul {
   list-style-type: none;
   margin: 0;
