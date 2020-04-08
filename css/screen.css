@@ -287,7 +287,41 @@ img#slider4 {
 }
 
 /* Tablet Styling */
-
+@media only screen and (min-width: 480px) {
+  #navbar-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  #navbar-container ul li {
+    float: left;
+    position: relative;
+    width: 33.33%;
+  }
+  
+  #navbar-container ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  #navbar-container ul li a:hover {
+    background-color: #000;
+  }
+  
+  #navbar-container ul li a.active {
+    background-color: #000;
+    color: white;
+  }
+}
 
 /* Desktop Sytling */
 
