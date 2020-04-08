@@ -177,7 +177,11 @@ margin-left: 0px;
 	height: 75px;
 }
 
-
+#bottom1 {
+    margin-top: 10em;
+    border-width:5px;  
+    border-bottom-style:double;
+}
 
 /* Desktop Sytling */
 
@@ -324,4 +328,10 @@ img#slider {
 img {
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+#bottom1 {
+    border-width:5px;  
+    border-bottom-style:double;
+    margin-top: 15em;
+  }
 }
