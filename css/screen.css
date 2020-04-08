@@ -397,7 +397,7 @@ img {
     border-bottom-style:double;
     margin-top: 15em;
   }
-  
+
   #home0{
     text-align: center;
   }
@@ -421,5 +421,8 @@ img {
     font-size: 2em;
     line-height: 1.3;
   }
-  
+  #homepic{
+    display:flex;
+    justify-content: center;
+  }
 }
