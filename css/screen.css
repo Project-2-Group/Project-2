@@ -56,16 +56,19 @@ input[type=text]:focus {
 input[type=text]{
 	border: 2px;
 	border-radius: 4px;
+	width: 100%;
 }
 
 input [type=button], input[type=submit], input[type=reset]{
 	background-color: lightgray;
 	border-radius: 8px;
 	cursor: pointer;
+	width: 50%;
 }
 input[type=tel]{
-border: 2px;
+    border: 2px;
 	border-radius: 4px;
+	width: 100%;
 }
 input[type=tel]:focus {
   background-color: lightblue;
@@ -125,11 +128,32 @@ margin-left: 0px;
   margin-right: 5em;
   font-size: 2em;
 }
+#bottom{
+ font-size: 4em;
+}
+
+#in, #fb{
+	width: 25px;
+	height:25px;
+}
+
 
 
 /* Desktop Sytling */
 
 @media only screen and (min-width: 992px) {
+
+#bottom{
+ font-size: 1.5em;
+}	
+	
+input[type=tel], input[type=text]{
+ width:20%;
+}	
+	
+input [type=button], input[type=submit], input[type=reset]{
+	width: 10%;
+}
 #mission{ 
  font-family: Arial;
  text-align:center;
