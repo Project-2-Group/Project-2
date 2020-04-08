@@ -245,16 +245,30 @@ label{
     color: white;
   }
   
-  #intro {
-    color: white;
-    margin-left: 30em;
-    margin-right: 30em;
-    font-size: 1.5em;
-    margin-bottom: 1em;
+  #thoughts {
+    text-align: center;
   }
   
   #thoughts_h2 {
     font-size: 1.7em;
+    margin-bottom: 1em;
+  }
+  
+  #thoughts_list {
+    display: inline-block;
+    text-align: left;
+    color: white;
+  }
+
+  #thoughts_list li {
+    margin-bottom: 1em;
+  }
+
+
+  #join_h2 {
+    font-size: 1.7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
 img#slider {
