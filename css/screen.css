@@ -183,6 +183,26 @@ margin-left: 0px;
     border-bottom-style:double;
 }
 
+img#slider1 {
+  margin-top: 1em;
+  width: 40em;
+}
+
+img#slider2 {
+  margin-top: 1em;
+  width: 40em;
+}
+
+img#slider3 {
+  margin-top: 1em;
+  width: 40em;
+}
+
+img#slider4 {
+  margin-top: 1em;
+  width: 40em;
+}
+
 /* Desktop Sytling */
 
 @media only screen and (min-width: 992px) {
@@ -279,9 +299,24 @@ label{
     margin-bottom: 1em;
   }
 
-img#slider {
+img#slider1 {
     margin-top: 1em;
     width: 50em;
+  }
+
+  img#slider2 {
+      margin-top: 1em;
+      width: 50em;
+  }
+  
+  img#slider3 {
+      margin-top: 1em;
+      width: 50em;
+  }
+
+  img#slider4 {
+      margin-top: 1em;
+      width: 50em;
   }
 
   #slides {
