@@ -171,6 +171,7 @@ input[type=tel]:focus {
   color: white;
   margin-left: 5em;
   margin-right: 5em;
+  padding-bottom: 1em;
   font-size: 2em;
 }
 
