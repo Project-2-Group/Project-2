@@ -422,6 +422,15 @@ img#slider4 {
     background-color: #000;
     color: white;
   }
+
+  #intro {
+    color: white;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-bottom: 1em;
+    font-size: 2em;
+  }
+
   #thoughts {
     text-align: center;
   }
