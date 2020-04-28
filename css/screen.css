@@ -177,6 +177,7 @@ input[type=tel]:focus {
 
 #thoughts {
   text-align: center;
+  margin-left: 1em;
 }
 
 #thoughts_h2 {
@@ -188,6 +189,7 @@ input[type=tel]:focus {
   display: inline-block;
   text-align: left;
   color: white;
+  margin-left: 1em;
 }
 
 #thoughts_list li {
