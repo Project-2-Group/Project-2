@@ -347,18 +347,20 @@ img#slider4 {
 
   }
   #inter{
-	  margin-top: 2em;
-	  margin-bottom: 2em;
+	  margin-top: 1em;
+	  margin-bottom: 1em;
   }
   #mission{
 	  margin-bottom: 2em;
   }
-  
+  #contact-header{
+	  text-align:center;
+  }
 }
 
 /* Desktop Sytling */
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 1025px) {
   #bottom {
     font-size: 1.5em;
   }
