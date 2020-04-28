@@ -1,5 +1,6 @@
 /* Mobile Styling */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 body {
   background-color: #87CEFA;
   display: inline;
@@ -140,6 +141,7 @@ input[type=tel]:focus {
   padding: 20px 20px;
   text-align: center;
   font-size: 2em;
+ font-family: 'Bangers', cursive;
 }
 
 #navbar-container ul li a:hover {
